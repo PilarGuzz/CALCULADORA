@@ -10,7 +10,11 @@ public class Decimal extends Numero{
 	private static final int VALOR_MAXIMO = 100001;
 	
 	
-	
+	/**
+	 * 
+	 * @param value se le pasa al constructor de Numero
+	 * @param base se le pasa al constructor de Numero
+	 */
 	public Decimal(int value, Base base) {
 		super(value, base);
 		setValorDecimal(0);
