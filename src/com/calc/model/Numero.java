@@ -8,7 +8,9 @@ public abstract class Numero {
 	protected Base base;
 	
 	
-	
+	/**
+	 * El constructor de Numero necesita un valor int y una base de tipo base
+	 */
 	public Numero(int value, Base base) {
 		super();
 		this.base=base;
