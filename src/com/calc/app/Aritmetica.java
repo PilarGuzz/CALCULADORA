@@ -8,7 +8,12 @@ public class Aritmetica {
 
 	public Aritmetica() {}
 
-	
+	/**
+	 * 
+	 * @param n1 equivale a un número de tipo decimal o binario con un valor
+	 * @param n2 equivale a un número de tipo decimal o binario con un valor
+	 * @return el resultado de la suma de los dos números teniendo en cuanta su tipo (decimal, entero)
+	 */
 	public Numero suma(Numero n1, Numero n2) {
 		Numero resultado = null;
 		
